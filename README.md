@@ -323,11 +323,7 @@ O Gini permanece alto, mas não é lido isoladamente. A queda de PR-AUC evidenci
 | Artefato | Localização | Descrição |
 |---|---|---|
 | `Modelo_Deteccao_Fraude.ipynb` | raiz | Notebook completo e executado |
-| `PROJETO_NOVA_BASE.md` | raiz | Especificação metodológica |
 | `modelo_fraude_sparkov.pkl` | `models/` | Pipeline e decisões congeladas |
-| `rebuild_sparkov_notebook.py` | `tools/` | Gerador reprodutível do notebook |
-| `old.ipynb` | raiz | Referência estrutural anterior |
-| `img01.jpeg` | raiz | Imagem do README |
 
 Os CSVs não são versionados devido ao tamanho. Para executar o notebook, disponibilize `fraudTrain.csv` e `fraudTest.csv` no diretório indicado na célula de leitura.
 
